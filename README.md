@@ -32,16 +32,6 @@ Install required libraries
 
 pip install -r requirements.txt
 
-In your requirements.txt, include:
-
-customtkinter
-
-pillow
-
-requests
-
-python-dotenv
-
 🔑 Configuration
 Create a .env file in the project folder with your OpenWeather API key:
 
@@ -52,14 +42,10 @@ Add icon images to these folders:
 icons/light/
 icons/dark/
 
-Make sure to include the icons used in the project, like mic.png, power.png, image.png, and so on.
-
-(Optional) Add TTF fonts to the fonts/ folder to use custom fonts as designed.
-
 🚀 Running the app
 Inside your project folder, run:
 
-python test.py
+python main.py
 
 This will launch the GUI window showing:
 
